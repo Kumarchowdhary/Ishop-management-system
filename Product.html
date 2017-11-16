@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Products</title>
+		<link rel="stylesheet" type="text/css" href="product.css">
+	</head>
+	<body>	
+		<table id="table">
+			<tr>
+				<td>Id</td>
+				<td>EmployeeName</td>
+			</tr>
+		</table>
+		<form method="POST">
+			<fieldset id="fieldset">
+				<legend>Products</legend>
+				<label style="font-size:20px;">Product Company</label>	
+				<select id="company_name" name="comp_name">
+					<option>pakistan</option>
+				</select><br><br>
+				<label style="font-size:20px;">Product Category</label>
+				<select id="product_category" name="prod_cat">
+					<option>fruit</option>
+				</select><br><br>
+				<label style="font-size:20px;">ProductName</label><input type="text" name="productname" placeholder="ProductName" onfocus="this.placeholder=''" id="proname"><br><br>
+				<label style="font-size:20px;">Product Manufacture</label><input type="text" name="pro_manufacture" placeholder="ProductManufacture" onfocus="this.placeholder=''" id="promanu"><br><br>
+				<label style="font-size:20px;">Price</label><input type="text" name="price" placeholder="Price" onfocus="this.placeholder=''" id="price"><br><br>
+				<label style="font-size:20px;">Expiry Date</label><input type="Date" name="date"  id="date"><br><br>
+				<label style="font-size:20px;">Product ISBN</label><input type="text" name="isbn" placeholder="Product Isbn" onfocus="this.placeholder=''" id="isbn"><br><br>
+				<label style="font-size:20px;">Status</label><input type="radio" name="status" value="1" id="active" >Active
+				<input type="radio" name="status" value="0" id="inactive" >InActive<br><br>
+				<input type="submit" value="Add" name="add"  id="add">
+				<input type="submit" value="Update" name="update"  id="update">
+				<input type="submit" value="Delete" name="delete"  id="delete">	
+				<input type="submit" value="Reset" name="reset"  id="Reset">
+				<input type="submit" value="Back" name="back"  id="back">		
+			</fieldset>
+		</form>
+	</body>
+</html>

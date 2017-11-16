@@ -1,0 +1,84 @@
+body{
+		background:url(emp1.jpg); 
+		background-repeat:no-repeat; 
+}
+
+#tble{
+	float:right;
+	width: 57%;
+}
+#fom1{
+	float:left;
+	margin-top: 20px;
+	width:90%;
+	height:auto;
+	margin-left: 40px;
+	font-family: "Comic Sans MS";
+	background: rgb(42,49,68);
+	border-radius: 10px;
+	color:white;
+	opacity: 0.76;	
+
+}
+table{
+	width:100%;
+}
+#fom{
+	
+	float:left;
+	margin-top: -30px;
+	width:500px;
+	height:520px;
+	margin-left: 25px;
+	font-family: "Comic Sans MS";
+	background: rgb(15,18,33);
+	border-radius: 10px;
+	transition:  0.9s ease-in-out;
+	color:white;
+	opacity: 0.76;	
+
+}
+#fom:hover{
+	margin-left:20px;
+	width:520px;
+	height: 540px;
+	-webkit-box-shadow: 9px 9px 110px 30px yellow;
+    -moz-box-shadow: 9px 9px 110px 30px red;
+	box-shadow: 5px 5px 20px 15px black;
+}
+
+.inpt{
+	width:100%;
+	height: 30px;
+	padding-left: 10px;
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+	border:none;
+	border-radius: 5px;
+}
+#txt{
+	color:white;
+	padding-left:15%;
+	font-size: 36px;
+	position: relative;
+	top:3px;
+	font-family: "Monotype Corsiva";
+	transition: 0.9s ease-in-out;
+}
+.btn{
+	margin:5px;
+	width:25%;
+	height: 50px;
+	background: rgb(44,69,91);
+	color:white;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+}
+.btn:hover{
+	cursor: pointer;
+	background: rgb(84,114,142);
+}
+.btn:active{
+	background: rgb(44,69,91);
+}

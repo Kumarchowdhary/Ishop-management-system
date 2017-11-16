@@ -1,0 +1,30 @@
+<html>
+	<head>
+			<title>ProductCategories</title>
+			<link rel="stylesheet" type="text/css" href="productcategory.css">
+	</head>
+<body>
+	<table id="table">
+		<tr>
+			<td>Id</td>
+			<td>EmployeeName</td>
+		</tr>
+	</table>
+
+	
+		<form method="POST">
+			<fieldset id="fieldset">
+				<legend>ProductCategory</legend>
+				<label style="font-size:20px;">Product Category</label><input type="text" name="procat" placeholder="Product Category" onfocus="this.placeholder=''" id="procat"><br><br><br><br>
+				<label style="font-size:20px;">Product Description</label><input type="text" name="prodes" placeholder="Product Description" onfocus="this.placeholder=''" id="prodes"><br><br><br><br>
+				<label style="font-size:20px;">Status</label><input type="radio" name="status" value="1" id="active" >Active
+				<input type="radio" name="status" value="0" id="inactive" >InActive<br><br><br><br>
+				<input type="submit" value="Add" name="add"  id="add">
+				<input type="submit" value="Update" name="update"  id="update">
+				<input type="submit" value="Delete" name="delete"  id="delete">	
+				<input type="submit" value="Reset" name="reset"  id="Reset">
+				<input type="submit" value="Back" name="back"  id="back">
+			</fieldset>
+		
+</body>
+</html>
